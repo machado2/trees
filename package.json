@@ -1,0 +1,35 @@
+{
+  "name": "trees",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.9.0",
+    "@react-three/drei": "^9.56.11",
+    "@react-three/fiber": "*",
+    "@react-three/rapier": "^0.6.5",
+    "@types/node": "*",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "*",
+    "@types/uuid": "^8.3.4",
+    "nice-color-palettes": "*",
+    "r3f-perf": "^6.4.4",
+    "react": "^18.2.0",
+    "react-dom": "*",
+    "simplex-noise": "^4.0.0",
+    "three": "^0.139.2",
+    "three-stdlib": "^2.14.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.143.1",
+    "@vitejs/plugin-react": "*",
+    "typescript": "^4.7.4",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^1.7.2"
+  }
+}
