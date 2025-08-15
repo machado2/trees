@@ -1,5 +1,0 @@
-{
-  "root": "public",
-  "clean_urls": true,
-  "headers": { "/**": { "Cache-Control": "public, max-age=3600" } }
-}
